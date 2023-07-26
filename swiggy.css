@@ -1,0 +1,323 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+
+
+.header-logo-image {
+  width: auto;
+  height: 60px;
+}
+
+.header {
+  background-color: whitesmoke;
+  height:75px;
+  padding: 2px 20px;
+}
+
+.header-nav {
+  float: right;
+}
+
+.menu li{
+  display:inline-block;
+   list-style: none;
+   text-align: center;
+   padding-top: 15px;
+ 
+}
+.signup{
+  display: inline-block;
+ text-decoration:none;
+ padding-left:5px;
+ background-color: black;
+ color:#fff;
+ height:30px;
+ width:80px;
+ align-items: center;
+ padding-top: 5px;
+ 
+
+}
+.login{
+  display:inline-block;
+    color:black;
+   text-decoration: none;
+    font-style:bold;
+    font-weight: 600;
+padding-left:20px;
+   
+}
+.flex-Container {
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+  flex-direction: row;
+  width:100%;
+  
+
+}
+.flex.Item{
+  display:flex;
+  justify-content: center;
+  width:200px;
+ 
+  padding-top:100px;
+}
+
+.p-1{
+  font-size:18px;
+  color: #686b78;
+  display: block;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width:150%;
+}
+.label{
+  border: 1px solid grey  ;
+  width:100%;
+  height:58px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right:10px; 
+
+}
+.input-container {
+  position: relative;
+}
+.location{
+  position:absolute;
+  top: 10%;
+  right:5px;
+  width:30%;
+  text-align:center;
+  font-size: 16px;
+  padding-top:18px;
+  border:none;
+ background-color: #fff;
+  color:grey
+}
+.child1{
+  width:40%;
+}
+.find-food{
+  display: flex;
+  color:white;
+  text-decoration: none;
+  font-size:16px;
+  width: 100px;
+  height:60px;
+  border:none;
+  background-color: #fc8019;
+  cursor:pointer;
+  align-items: center;
+  padding-left:8px;
+
+}
+
+
+.word span:nth-child(even) {
+  color: black;
+}
+
+.word span:nth-child(odd) {
+  color: gray;
+}
+.flex-item {
+  background-image: url('./images/swiggy_background.jpg');
+  width:800px;
+  height:800px;
+  background-repeat: no-repeat;
+  /* margin-left: 20rem; */
+  margin-right: 0px;
+}
+
+
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #422920;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.column-1 {
+  text-align: center;
+}
+
+
+.image{
+  width:auto;
+ 
+  height: 188px;
+}
+
+h2 {
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.content {
+  color: whitesmoke;
+}
+
+.flex-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-2 {
+  flex: 1;
+  text-align: left;
+  padding-left:20px;
+}
+
+.playstore,
+.iosstore {
+  width: 200px;
+   float:left;
+   
+}
+
+.phone1,
+.phone2 {
+
+  width: 384px;
+  height: 489px;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+
+.word {
+  color: white;
+  text-decoration: none;
+}
+
+.word li {
+  list-style: none;
+}
+
+.word li a,
+.link {
+
+  text-decoration: none;
+  color: white;
+  line-height:2 ;
+  font-size: 16px;
+ 
+  
+}
+.link1 {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  line-height: 2 ;
+  font-size: 16px;
+}
+
+.playstore-1,
+.iosstore-1 {
+  width: 200px;
+
+  margin-top: 50px;
+ 
+}
+
+.footer-1 {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.logo-footer {
+  width: 142;
+  height: 42px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  background-color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+  height:80px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 20px;
+
+}
+
+.menu li a i {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.heading-1 {
+  font-size: 40px;
+  font-weight:600;
+  width: 300px;
+  line-height: 1;
+}
+
+.heading-2 {
+ 
+  font-size: 20px;
+  width: 400px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 60px;
+ 
+  color: #7e808c;
+}
+
+.heading-3 {
+  display: flex;
+  color: grey;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  
+}
+.heading-31{
+  display:flex;
+  color:grey;
+  justify-content:center;
+  padding-right:160px;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
